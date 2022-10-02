@@ -27,11 +27,11 @@ body {
 }
 
 .hero {
-  background-image: url("../public/ba1.jpg");
-  background-size: cover;
-  background-position: center;
-  height: 38em;
+  /* background-image: url("../public/ba1.jpg"); */
+  height: 40em;
   width: 100%;
+  overflow: hidden;
+  position: relative;
 }
 
 .hero-cta-container {
@@ -42,9 +42,27 @@ body {
   padding: 5em;
   justify-content: flex-end;
   align-items: flex-end;
+  position: absolute;
+  z-index: 999;
+  top: 0;
+  right: 0;
 }
 
 .hero-cta {
   width: 32em;
   text-align: end;
+}
+
+.honolulu {
+  background-color: #353a40;
+  color: #fff;
+}
+
+footer {
+  background: rgb(27, 55, 64);
+  background: linear-gradient(
+    90deg,
+    rgba(27, 55, 64, 1) 0%,
+    rgba(27, 82, 113, 1) 100%
+  );
 }
