@@ -27,15 +27,15 @@ body {
 }
 
 .hero {
-  /* background-image: url("../public/ba1.jpg"); */
-  height: 40em;
   width: 100%;
+  height: 70vh;
   overflow: hidden;
   position: relative;
 }
 
 .hero-cta-container {
   background: #00000090;
+
   width: 100%;
   height: 100%;
   display: flex;
@@ -65,4 +65,16 @@ footer {
     rgba(27, 55, 64, 1) 0%,
     rgba(27, 82, 113, 1) 100%
   );
+}
+
+@media screen and (max-width: 700px) {
+  .hero-cta-container {
+   
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.img-fluid {
+  max-width: unset;
 }
