@@ -75,6 +75,6 @@ footer {
   }
 }
 
-.img-fluid {
+.img-fluid:not(.max) {
   max-width: unset;
 }
